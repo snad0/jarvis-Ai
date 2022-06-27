@@ -26,8 +26,6 @@ mailbox={
     'friday':'fridayemail@gmail.com',
     'jarvis':'jarvisemail@gmail.com'}
 
-
-lt=[ 'you are a fool','you fool','fool','you stupid','stupid','you are stupid','WTF','what the','ass','fuck',"stupid jarvis","dumb"]
     
 
 def speak(audio):
@@ -297,5 +295,3 @@ if __name__ == "__main__":
                 print("Title:",item['title'])
                 print(f"\nlink: {item['link']} \n")
                 speak(item['title'])
-        elif query in lt:    
-            speak("please dont speak mean words, i also have feelings!")
